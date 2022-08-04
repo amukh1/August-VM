@@ -1,6 +1,6 @@
-[![npm version](https://badge.fury.io/js/august-lang.svg)](https://www.npmjs.com/package/august-lang)
+[![npm version](https://badge.fury.io/js/august-vm.svg)](https://www.npmjs.com/package/august-vm)
 
-# august-lang
+# august-virtual-machine
 
 > A virtual machine used to assist the *august* programming language..
 
@@ -31,13 +31,13 @@ These instructions will get you a copy of the project up and running on your loc
 To install and set up the library, run:
 
 ```sh
-$ npm install avm
+$ npm install august-vm
 ```
 
 Or if you prefer using Yarn:
 
 ```sh
-$ yarn add --dev avm
+$ yarn add --dev august-vm
 ```
 
 ## Usage
@@ -70,8 +70,8 @@ You can contribute to the project by making a pull request on [GitHub](https://g
 
 * **Amukh1** - [Github](https://github.com/amukh1)
 
-See also the list of [contributors](https://github.com/amukh1/avm/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/amukh1/august-vm/contributors) who participated in this project.
 
 ## License
 
-[MIT License](https://andreasonny.mit-license.org/2019) © Amukh1
+[MIT License](https://andreasonny.mit-license.org/2022) © Amukh1

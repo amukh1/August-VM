@@ -1,5 +1,5 @@
 {
-  "name": "avm",
+  "name": "august-vm",
   "version": "1.0.0",
   "description": "A virtual machine used to assist the august programming language.",
   "type": "module",
