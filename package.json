@@ -1,0 +1,19 @@
+{
+  "name": "avm",
+  "version": "1.0.0",
+  "description": "A virtual machine used to assist the august programming language.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amukh1",
+  "license": "ISC",
+  "bin": {
+    "avm": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "fs": "^0.0.1-security"
+  }
+}
