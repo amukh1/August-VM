@@ -1,12 +1,10 @@
 #!/usr/bin/env node
 import chalk from 'chalk';
-import inquirer from 'inquirer';
 import gradient from 'gradient-string';
 import chalkAnimation from 'chalk-animation';
 import figlet from 'figlet';
 import {createSpinner} from 'nanospinner';
 import fs from 'fs';
-import fetch from 'node-fetch';
 import {exec} from 'child_process';
 import CPU from './CPU.js';
 
@@ -27,24 +25,6 @@ console.log(gradient.pastel.multiline(data))
     }, 1000)
     // console.log('\n')
     }, 2000)
-}
-
-async function go() {
-    const response = await inquirer.prompt({
-        type:'input',
-        name: 'File',
-        message: 'Enter the file name:',
-      }).then(function(a){
-        handleAnswer(a)
-      })
-
-}
-
-function handleAnswer(a) {
-    // console.log(a)
-    
-    const file = a.File
-
 }
 
 
