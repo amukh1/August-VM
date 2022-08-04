@@ -1,8 +1,8 @@
 [![npm version](https://badge.fury.io/js/august-vm.svg)](https://www.npmjs.com/package/august-vm)
 
-# august-virtual-machine
+# August-Virtual-Machine
 
-> A virtual machine used to assist the *august* programming language..
+> A *virtual* machine used to assist the *August* programming language..
 
 ## Prerequisites
 
